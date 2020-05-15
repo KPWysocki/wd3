@@ -1,0 +1,3 @@
+import zespolone
+
+zespolone.dzialacz
