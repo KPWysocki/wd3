@@ -1,6 +1,6 @@
 import math
 
-def sumek(a1,r,ile):
+def sum(a1,r,ile):
     an=[a1+r*i for i in range(ile+1)]
     print(an)
     return 0
@@ -8,4 +8,4 @@ def sumek(a1,r,ile):
 a1=1
 r=1
 ile=10
-an=sumek(a1,r,ile)
+an=sum(a1,r,ile)
