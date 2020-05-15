@@ -1,16 +1,7 @@
-def createMatrix(rowCount, colCount, dataList):
-    mat = []
-    for i in range(rowCount):
-        rowList = []
-        for j in range(colCount):
-            rowList.append(dataList[rowCount * i + j])
-        mat.append(rowList)
-
-    return mat
-
-def main():
-    alpha = ['a','b','c','d','e','f','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
-    mat = createMatrix(5,5,alpha)
-    print (mat)
-
-main()
+import numpy as np
+A=np.random.randint(10, size=(4,4))
+print(A)
+B=[A[0,0], A[1,1],A[2,2],A[3,3]]
+C=[A[0,3], A[1,2],A[2,1],A[3,0]]
+print(B)
+print(C)
