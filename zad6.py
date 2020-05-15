@@ -2,7 +2,7 @@ import math
 def promien(a,b):
     x=0
     y=0
-    R=((x-a)**2)-((y-b)**2)
+    R=((x-a)**2)+((y-b)**2)
     r=math.sqrt(R)
     print(r)
     return 0
